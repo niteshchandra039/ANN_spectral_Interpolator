@@ -1,0 +1,2 @@
+Total time to train: 3.167321286201477051e+02 sec
+Total Number of free parameters : 1.147187000000000000e+06

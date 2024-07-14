@@ -1,0 +1,27 @@
+##Contents:
+'ReadMe': This file
+'toy_interpolator_v0.0.2_trial_0.fits': The trained Interpolator with the model architecture is described at the end of this file. 
+'epoch_vs_loss.csv': The epoch vs loss( mean squared error)
+
+
+
+Model: "model"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+TGM (InputLayer)             [(None, 3)]               0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 32)                128       
+_________________________________________________________________
+dense_2 (Dense)              (None, 128)               4224      
+_________________________________________________________________
+dense_3 (Dense)              (None, 512)               66048     
+_________________________________________________________________
+predicted_spectrum (Dense)   (None, 2099)              1076787   
+=================================================================
+Total params: 1,147,187
+Trainable params: 1,147,187
+Non-trainable params: 0
+_________________________________________________________________
+
+The Total Number of samples: 2908
