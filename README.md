@@ -2,12 +2,12 @@
 
 This repository provides tools for spectral data inversion using Artificial Neural Networks (ANNs). It includes:
 
-- **ANN Spectral Interpolators**: Models designed to perform spectral interpolation, enabling the estimation of spectral values at unsampled wavelengths.
+- **ANN Spectral Interpolators**: Models designed to perform spectral interpolation, enabling the estimation of spectra values at unsampled parameter space (T_eff, logg and [Fe/H]).
 - **IDL Scripts**: Interactive Data Language (IDL) scripts that facilitate the inversion process, allowing for the extraction of meaningful parameters from spectral data.
 
 ## Features
 
-- **Spectral Interpolation**: Utilizes ANNs to accurately estimate spectral values across different wavelengths.
+- **Spectral Interpolation**: Utilizes ANNs to accurately estimate spectrum across different parameter combinations of T_eff, logg and [Fe/H].
 - **Data Inversion**: Employs IDL scripts to invert spectral data, aiding in the interpretation and analysis of spectral measurements.
 
 ## Getting Started
